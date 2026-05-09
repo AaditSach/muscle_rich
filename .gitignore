@@ -1,0 +1,36 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+**/DerivedData/
+.melos_tool/
+
+# IDEs
+.idea/
+.vscode/
+
+# iOS / Xcode
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# Android / Gradle
+android/.gradle/
+android/local.properties
+android/app/*.keystore
+android/app/*.jks
+
+# Firebase secrets
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Misc
+*.log
+assets/videos/
+
+# Firebase generated config (contains API keys)
+lib/firebase_options.dart
+ios/GoogleService-Info.plist
